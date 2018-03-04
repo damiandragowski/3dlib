@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Environ3D - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD5A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Environ3D.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Code\Stare\VS6.0\Environ3DvBSplinePatchTrimmed\3DLib\BSplinePatch.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD5A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD5B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Environ3D.pdb" /debug /machine:I386 /out:"Debug/Environ3D.exe" /pdbtype:sept 
+.\Debug\Environ3D.obj
+.\Debug\MainWindow.obj
+.\Debug\ParamDialogBox.obj
+.\Debug\StdAfx.obj
+.\Debug\Bezier3D.obj
+.\Debug\BezierPatchC0.obj
+.\Debug\BSpline.obj
+.\Debug\BSplinePatch.obj
+.\Debug\Cursor3D.obj
+.\Debug\Interpol3D.obj
+.\Debug\Matrix3D.obj
+.\Debug\Mesh3D.obj
+.\Debug\Object3D.obj
+.\Debug\Point3D.obj
+.\Debug\Sphere3D.obj
+.\Debug\Torus3D.obj
+.\Debug\Vector3D.obj
+.\Debug\resoruces.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD5B.tmp"
+<h3>Output Window</h3>
+Compiling...
+BSplinePatch.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD5C.tmp" with contents
+[
+/nologo /o"Debug/Environ3D.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\Environ3D.sbr
+.\Debug\MainWindow.sbr
+.\Debug\ParamDialogBox.sbr
+.\Debug\Bezier3D.sbr
+.\Debug\BezierPatchC0.sbr
+.\Debug\BSpline.sbr
+.\Debug\BSplinePatch.sbr
+.\Debug\Cursor3D.sbr
+.\Debug\Interpol3D.sbr
+.\Debug\Matrix3D.sbr
+.\Debug\Mesh3D.sbr
+.\Debug\Object3D.sbr
+.\Debug\Point3D.sbr
+.\Debug\Sphere3D.sbr
+.\Debug\Torus3D.sbr
+.\Debug\Vector3D.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD5C.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Environ3D.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
